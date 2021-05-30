@@ -1,0 +1,6 @@
+framework module Pods_Minestagram_Andra {
+  umbrella header "Pods-Minestagram_Andra-umbrella.h"
+
+  export *
+  module * { export * }
+}

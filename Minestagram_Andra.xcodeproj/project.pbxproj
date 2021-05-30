@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8066EC5626639E8600CD27A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8066EC5526639E8600CD27A0 /* GoogleService-Info.plist */; };
+		8066EC582663A82E00CD27A0 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8066EC572663A82E00CD27A0 /* FirebaseManager.swift */; };
 		80D357622663789B00444585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D357612663789B00444585 /* AppDelegate.swift */; };
 		80D357642663789B00444585 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D357632663789B00444585 /* SceneDelegate.swift */; };
 		80D357662663789B00444585 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D357652663789B00444585 /* HomeViewController.swift */; };
@@ -27,9 +29,13 @@
 		80D3579526637E3700444585 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3579426637E3700444585 /* SearchResultViewController.swift */; };
 		80D3579726637E7D00444585 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3579626637E7D00444585 /* PostEditorViewController.swift */; };
 		80D3579926637EA100444585 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3579826637EA100444585 /* PublishPostViewController.swift */; };
+		8AF5D1254447E19D1E32E4F6 /* Pods_Minestagram_Andra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81807C3BC672E0BB0FCCDDCE /* Pods_Minestagram_Andra.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CF175F372914C38D33CE4B1 /* Pods-Minestagram_Andra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minestagram_Andra.debug.xcconfig"; path = "Target Support Files/Pods-Minestagram_Andra/Pods-Minestagram_Andra.debug.xcconfig"; sourceTree = "<group>"; };
+		8066EC5526639E8600CD27A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8066EC572663A82E00CD27A0 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		80D3575E2663789B00444585 /* Minestagram_Andra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minestagram_Andra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D357612663789B00444585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80D357632663789B00444585 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +58,8 @@
 		80D3579426637E3700444585 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		80D3579626637E7D00444585 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		80D3579826637EA100444585 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		81807C3BC672E0BB0FCCDDCE /* Pods_Minestagram_Andra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minestagram_Andra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EA3E5CCE9475C6EE4B1B2E /* Pods-Minestagram_Andra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minestagram_Andra.release.xcconfig"; path = "Target Support Files/Pods-Minestagram_Andra/Pods-Minestagram_Andra.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF5D1254447E19D1E32E4F6 /* Pods_Minestagram_Andra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B0F74A6BB5BED5107AA41E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CF175F372914C38D33CE4B1 /* Pods-Minestagram_Andra.debug.xcconfig */,
+				E1EA3E5CCE9475C6EE4B1B2E /* Pods-Minestagram_Andra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		80D357552663789B00444585 = {
 			isa = PBXGroup;
 			children = (
 				80D357602663789B00444585 /* Minestagram_Andra */,
 				80D3575F2663789B00444585 /* Products */,
+				4B0F74A6BB5BED5107AA41E6 /* Pods */,
+				B5558C3334AC93BCC9E5194C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +141,10 @@
 		80D357792663796500444585 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8066EC5526639E8600CD27A0 /* GoogleService-Info.plist */,
 				80D357612663789B00444585 /* AppDelegate.swift */,
 				80D357632663789B00444585 /* SceneDelegate.swift */,
+				8066EC572663A82E00CD27A0 /* FirebaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -173,6 +195,14 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		B5558C3334AC93BCC9E5194C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81807C3BC672E0BB0FCCDDCE /* Pods_Minestagram_Andra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80D357722663789C00444585 /* Build configuration list for PBXNativeTarget "Minestagram_Andra" */;
 			buildPhases = (
+				E256019C4E2203519006BC4D /* [CP] Check Pods Manifest.lock */,
 				80D3575A2663789B00444585 /* Sources */,
 				80D3575B2663789B00444585 /* Frameworks */,
 				80D3575C2663789B00444585 /* Resources */,
+				A77EC5D63B8237D220145561 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,10 +265,53 @@
 				80D3576E2663789C00444585 /* LaunchScreen.storyboard in Resources */,
 				80D3576B2663789C00444585 /* Assets.xcassets in Resources */,
 				80D357692663789B00444585 /* Main.storyboard in Resources */,
+				8066EC5626639E8600CD27A0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A77EC5D63B8237D220145561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minestagram_Andra/Pods-Minestagram_Andra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minestagram_Andra/Pods-Minestagram_Andra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Minestagram_Andra/Pods-Minestagram_Andra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E256019C4E2203519006BC4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minestagram_Andra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80D3575A2663789B00444585 /* Sources */ = {
@@ -251,6 +326,7 @@
 				80D3578926637CF800444585 /* RegistrationViewController.swift in Sources */,
 				80D3579726637E7D00444585 /* PostEditorViewController.swift in Sources */,
 				80D3578B26637D3C00444585 /* PostViewController.swift in Sources */,
+				8066EC582663A82E00CD27A0 /* FirebaseManager.swift in Sources */,
 				80D3578026637BD000444585 /* NotificationsViewController.swift in Sources */,
 				80D3579526637E3700444585 /* SearchResultViewController.swift in Sources */,
 				80D3578726637CD500444585 /* LoginViewController.swift in Sources */,
@@ -403,12 +479,14 @@
 		};
 		80D357732663789C00444585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF175F372914C38D33CE4B1 /* Pods-Minestagram_Andra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6H855QS8AA;
 				INFOPLIST_FILE = Minestagram_Andra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,12 +500,14 @@
 		};
 		80D357742663789C00444585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EA3E5CCE9475C6EE4B1B2E /* Pods-Minestagram_Andra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6H855QS8AA;
 				INFOPLIST_FILE = Minestagram_Andra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
