@@ -23,10 +23,6 @@
 		80D3577E26637B8A00444585 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3577D26637B8A00444585 /* PhotoViewController.swift */; };
 		80D3578726637CD500444585 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3578626637CD500444585 /* LoginViewController.swift */; };
 		80D3578926637CF800444585 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3578826637CF800444585 /* RegistrationViewController.swift */; };
-		80D3578B26637D3C00444585 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3578A26637D3C00444585 /* PostViewController.swift */; };
-		80D3579126637DEB00444585 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3579026637DEB00444585 /* ListViewController.swift */; };
-		80D3579726637E7D00444585 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3579626637E7D00444585 /* PostEditorViewController.swift */; };
-		80D3579926637EA100444585 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3579826637EA100444585 /* PublishPostViewController.swift */; };
 		8AF5D1254447E19D1E32E4F6 /* Pods_Minestagram_Andra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81807C3BC672E0BB0FCCDDCE /* Pods_Minestagram_Andra.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,10 +46,6 @@
 		80D3577D26637B8A00444585 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		80D3578626637CD500444585 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		80D3578826637CF800444585 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
-		80D3578A26637D3C00444585 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		80D3579026637DEB00444585 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		80D3579626637E7D00444585 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
-		80D3579826637EA100444585 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 		81807C3BC672E0BB0FCCDDCE /* Pods_Minestagram_Andra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minestagram_Andra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EA3E5CCE9475C6EE4B1B2E /* Pods-Minestagram_Andra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minestagram_Andra.release.xcconfig"; path = "Target Support Files/Pods-Minestagram_Andra/Pods-Minestagram_Andra.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,10 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				80D3578526637CAB00444585 /* Onboarding */,
-				80D3578A26637D3C00444585 /* PostViewController.swift */,
-				80D3579026637DEB00444585 /* ListViewController.swift */,
-				80D3579626637E7D00444585 /* PostEditorViewController.swift */,
-				80D3579826637EA100444585 /* PublishPostViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -320,14 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D3579926637EA100444585 /* PublishPostViewController.swift in Sources */,
 				80D357662663789B00444585 /* HomeViewController.swift in Sources */,
 				80D357622663789B00444585 /* AppDelegate.swift in Sources */,
 				80D3578926637CF800444585 /* RegistrationViewController.swift in Sources */,
-				80D3579726637E7D00444585 /* PostEditorViewController.swift in Sources */,
 				8066EC6326641D2000CD27A0 /* PhotoTableViewCell.swift in Sources */,
 				8066EC5A2663B3EC00CD27A0 /* Extensions.swift in Sources */,
-				80D3578B26637D3C00444585 /* PostViewController.swift in Sources */,
 				8066EC582663A82E00CD27A0 /* FirebaseManager.swift in Sources */,
 				8066EC5F2664121800CD27A0 /* FeedTableViewCell.swift in Sources */,
 				8066EC612664149900CD27A0 /* FeedHeaderTableViewCell.swift in Sources */,
@@ -335,7 +320,6 @@
 				80D3578726637CD500444585 /* LoginViewController.swift in Sources */,
 				80D357642663789B00444585 /* SceneDelegate.swift in Sources */,
 				80D3577E26637B8A00444585 /* PhotoViewController.swift in Sources */,
-				80D3579126637DEB00444585 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
