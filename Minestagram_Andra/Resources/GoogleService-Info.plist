@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>450109533903-l23nc6v5jkatbk6n8fii9p4acujc37g4.apps.googleusercontent.com</string>
+	<string>1090712065040-mohe3g3i5hg79s7fmjk5svha1eqqhbr6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.450109533903-l23nc6v5jkatbk6n8fii9p4acujc37g4</string>
+	<string>com.googleusercontent.apps.1090712065040-mohe3g3i5hg79s7fmjk5svha1eqqhbr6</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAoPHNUr1TSEqFCUsKENzwCTq4L3d-HCuI</string>
+	<string>AIzaSyB6_QUIEHhgtea3jaLEW_d3KELOzVLNE50</string>
 	<key>GCM_SENDER_ID</key>
-	<string>450109533903</string>
+	<string>1090712065040</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>ViA.Minestagram-Andra</string>
 	<key>PROJECT_ID</key>
-	<string>minestagram-4dc22</string>
+	<string>minstagram-fa6c1</string>
 	<key>STORAGE_BUCKET</key>
-	<string>minestagram-4dc22.appspot.com</string>
+	<string>minstagram-fa6c1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:450109533903:ios:2ce2bac40e154bab8611ba</string>
+	<string>1:1090712065040:ios:d8a34d448b2afb5f5da695</string>
 </dict>
 </plist>
